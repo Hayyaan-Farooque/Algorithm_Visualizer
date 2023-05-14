@@ -1,0 +1,21 @@
+#controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#arrayContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 80vh;
+}
+
+.bar {
+    width: 2%;
+    background-color: blue;
+}
+
+.bar.comparing {
+    background-color: red;
+}
